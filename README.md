@@ -156,11 +156,13 @@ python game.py
 ├── test_core.py         # 核心逻辑自动测试（42 个用例）
 ├── test_game.py         # 游戏流程与界面自动测试（28 个用例）
 ├── render_preview.py    # 离屏渲染脚本，导出各界面截图
+├── make_gif.py          # 录制演示动图（让游戏自动跑一遍并逐帧录成 GIF）
+├── make_diagram.py      # 生成「路径检测」示意图，用于讲解实现思路
 ├── make_icon.py         # 生成 exe 图标（拿结算表情图裁的）
 ├── build_exe.bat        # 一键打包成免安装 exe
 ├── run_game.bat         # 双击启动（源码方式）
 ├── resources/           # 结算表情图
-└── preview/             # 自动生成的界面截图
+└── preview/             # 自动生成的界面截图与演示动图
 ```
 
 ### 为什么把逻辑层和界面层分开
