@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.spec
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 运行产物（测试报告由脚本重新生成，不必入库）
+*_report.txt
+
+# 打包产物（体积大，用 build_exe.bat 随时能重新生成）
+yet-arrow-away_免安装版.zip
+dist_smoke/
+自检截图/
+preview_smoke/
+错误日志.txt
+
+# Windows
+Thumbs.db
+desktop.ini
